@@ -17,7 +17,7 @@ public class SquareRoot {
     public static void main(String[] args) {
         // TODO code application logic here
  
-        System.out.println(squares(9.0)) ;
+        System.out.println(squares(8.0)) ;
     
     }
     public static double squares(double num) {
@@ -27,7 +27,7 @@ public class SquareRoot {
         
         
         
-        return  Math.sqrt(num);
+        return  Math.cbrt(num);
   
   
 }
